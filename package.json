@@ -1,0 +1,28 @@
+{
+	"//1": "describes your app and its dependencies",
+	"//2": "https://docs.npmjs.com/files/package.json",
+	"//3": "updating this file will download and update your packages",
+	"name": "my-glitch-app",
+	"version": "0.0.1",
+	"description": "What am I about?",
+	"main": "main.js",
+	"scripts": {
+		"start": "webpack-dev-server"
+	},
+	"dependencies": {
+		"connect": "^3.6.0",
+		"serve-static": "^1.12.1",
+		"vue": "^2.2.4",
+		"webpack": "^2.2.1",
+		"webpack-dev-server": "^2.4.1",
+		"vue-loader": "^11.1.4",
+		"vue-template-compiler": "^2.2.4",
+		"css-loader": "^0.27.3",
+		"normalize.css": "^5.0.0",
+		"style-loader": "^0.13.2"
+	},
+	"repository": {
+		"url": "https://glitch.com/#!/project/welcome-project"
+	},
+	"license": "MIT"
+}
